@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Learning TestNG">
+	<test name="FirstTestNGFile" allow-return-values="true">
+		<classes>
+			<class name="firsttestngpackge.FirstTestNGFile" />
+		</classes>
+	</test>
+	
+	<test name="RegTest" allow-return-values="true">
+		<classes>
+			<class name="firsttestngpackge.RegTest"/>
+		</classes>
+	</test>
+	
+	<test name="Parametrization" allow-return-values="true">
+		<classes>
+			<class name="firsttestngpackge.Parametrization"/>
+		</classes>
+	</test>
+</suite>
+	
+	
