@@ -9,7 +9,7 @@ public class Parametrization
 	{
 		
 	}
-	
+
 	@DataProvider
 	public Object[][] getData()
 	{
@@ -25,7 +25,5 @@ public class Parametrization
 		data[2][0]="U1-2"; data[2][1]=22; data[2][2]="Pass"; data[2][3]="moz-2";
 		
 		return data;
-		
-		
 	}
 }
